@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Politique de confidentialité · Doremy</title>
+    <meta
+      name="description"
+      content="Doremy ne collecte aucune donnée personnelle : pas de compte, pas de serveur, pas de publicité."
+    />
+    <style>
+      /* Standalone page with no outside request (no web font): it is also shipped inside the app. */
+      :root {
+        color-scheme: light dark;
+        --bg: #f6f4ef;
+        --surface: #fff;
+        --ink: #2c2c2a;
+        --ink-2: #5f5e5a;
+        --line: #e2ded4;
+        --brass-ink: #7a4d0c;
+        padding-top: env(safe-area-inset-top);
+        padding-bottom: env(safe-area-inset-bottom);
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #161513;
+          --surface: #201f1c;
+          --ink: #f1efe8;
+          --ink-2: #b4b2a9;
+          --line: #36342f;
+          --brass-ink: #f0c983;
+        }
+      }
+
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font:
+          400 1.0625rem/1.65 'Atkinson Hyperlegible Next',
+          'Segoe UI',
+          system-ui,
+          sans-serif;
+        padding-inline: max(16px, env(safe-area-inset-left)) max(16px, env(safe-area-inset-right));
+      }
+
+      main {
+        max-width: 40rem;
+        margin: 0 auto;
+        padding-block: 32px 64px;
+      }
+
+      h1,
+      h2 {
+        font-family: 'Fraunces', 'Iowan Old Style', Georgia, serif;
+        font-weight: 650;
+        line-height: 1.2;
+        text-wrap: balance;
+      }
+
+      h1 {
+        font-size: 2rem;
+        margin: 8px 0 4px;
+      }
+
+      h2 {
+        font-size: 1.25rem;
+        margin: 32px 0 6px;
+      }
+
+      p {
+        margin: 0 0 12px;
+      }
+
+      a {
+        color: var(--brass-ink);
+        text-underline-offset: 3px;
+      }
+
+      .back {
+        display: inline-block;
+        padding: 8px 0;
+        color: var(--ink-2);
+        font-weight: 700;
+      }
+
+      .date {
+        color: var(--ink-2);
+        font-size: 0.9375rem;
+      }
+
+      .summary {
+        background: var(--surface);
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        padding: 16px 18px;
+        margin: 20px 0 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Politique de confidentialité</h1>
+      <p class="date">Dernière mise à jour : 21 novembre 2026</p>
+
+      <p class="summary">
+        En bref : Doremy ne collecte aucune donnée personnelle. Pas de compte, pas de serveur, pas de publicité. Ta
+        progression reste sur ton appareil.
+      </p>
+
+      <h2>Qui sommes-nous</h2>
+      <p>
+        Doremy est une application d'apprentissage de la musique (solfège, chant, tablatures). Elle fonctionne
+        entièrement sur ton appareil, sans compte et sans serveur.
+      </p>
+
+      <h2>Données collectées</h2>
+      <p>
+        Doremy ne collecte, ne transmet et ne vend aucune donnée personnelle. L'application ne se connecte à aucun
+        serveur et n'utilise aucun service tiers.
+      </p>
+
+      <h2>Ta progression</h2>
+      <p>
+        Tes résultats, ta série de jours et tes réglages sont enregistrés uniquement sur ton appareil. Ils sont effacés
+        si tu désinstalles l'application ou si tu touches « Réinitialiser ».
+      </p>
+      <p>
+        Le bouton « Exporter ma progression » en fait une copie dans un fichier. Ce fichier ne quitte ton appareil que
+        si tu choisis toi-même de le partager.
+      </p>
+
+      <h2>Le micro</h2>
+      <p>
+        Doremy utilise le micro seulement pendant les exercices de chant et « Joue la note », après ton accord. Le son
+        est analysé en direct sur ton appareil pour mesurer la hauteur de la note. Il n'est jamais enregistré ni envoyé.
+      </p>
+
+      <h2>Les notifications</h2>
+      <p>
+        Si tu actives le rappel quotidien, Doremy programme une notification sur ton appareil, à l'heure choisie. Tu
+        peux la désactiver à tout moment dans l'écran Progrès.
+      </p>
+
+      <h2>Publicité et mesure d'audience</h2>
+      <p>Doremy n'affiche aucune publicité et n'utilise aucun outil de suivi ou de mesure d'audience.</p>
+
+      <h2>Enfants</h2>
+      <p>Doremy ne collecte aucune donnée, y compris auprès des enfants.</p>
+
+      <h2>Changements</h2>
+      <p>Si cette politique change, la nouvelle version sera publiée sur cette page, avec sa date.</p>
+
+      <h2>Contact</h2>
+      <p>Pour toute question : <a href="mailto:doremy.app@gmail.com">doremy.app@gmail.com</a></p>
+    </main>
+  </body>
+</html>
